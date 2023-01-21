@@ -9,7 +9,7 @@ sed -i "s#VMESS_WSPATH#${VMESS_WSPATH}#g;s#VLESS_WSPATH#${VLESS_WSPATH}#g" /etc/
 sed -i "s#RELEASE_RANDOMNESS#${RELEASE_RANDOMNESS}#g" /etc/supervisor/conf.d/supervisord.conf
 
 
-mv v ${RELEASE_RANDOMNESS}
+mv v2ray ${RELEASE_RANDOMNESS}
 cat config.json | base64 > config
 
 
